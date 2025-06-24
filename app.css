@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Inter", sans-serif;
+}
+
+main {
+    border: 0.063rem solid #d1d1d1;
+    border-radius: 0.625rem;
+    max-width: 37.5rem;
+    margin: 1.875rem auto;
+    background-color: rgba(214, 246, 219, 0.45);
+}
+
+h1 {
+    margin: 1.25rem 0 1.25rem 0;
+    font-weight: 500;
+    text-align: center;
+    color: rgba(164, 53, 203, 0.67);
+}
+
+form {
+    margin: 1.875rem 1.25rem 50px 1.25rem;
+}
+
+#new-todo {
+    padding-left: 0.313rem;
+    margin-right: 0.313rem;
+    max-width: 300px;
+    height: 1.875rem;
+    background-color: inherit;
+    border: 0.063rem solid #d1d1d1;
+    border-radius: 0.313rem;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+select {
+    margin-right: 0.313rem;
+    padding-left: 0.313rem;
+    margin-bottom: 0.625rem;
+    background-color: inherit;
+    height: 2.063rem;
+    border: 0.063rem solid #d1d1d1;
+    border-radius: 0.313rem;
+    font-size: 1rem;
+    color: #7a7a7a;
+    font-weight: 400;
+}
+
+button {
+    max-width: 350px;
+    padding: 0.313rem;
+    height: 2.063rem;
+    font-size: 1rem;
+    background-color: inherit;
+    border: 0.063rem solid rgba(164, 53, 203, 0.67);
+    border-radius: 0.313rem;
+    color: rgba(164, 53, 203, 0.67);
+    cursor: pointer;
+    font-weight: 500;
+}
+
+ul {
+    list-style: none;
+}
+
+.todo-item {
+    margin-left: 1.25rem;
+    display: flex;
+    gap: 0.625rem;
+    margin-bottom: 1.875rem;
+    color: #383838;
+    font-size: 1rem;
+}
+
+.todo-text {
+    flex-grow: 1;
+}
+
+.close-item {
+    color: red;
+    font-size: 1.563rem;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.close-item:hover {
+    color: rgba(238, 9, 9, 0.6);
+}

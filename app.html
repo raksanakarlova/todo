@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="app.css">
+  <title>Todo</title>
+</head>
+<body>
+  <main>
+    <h1>ToDo: </h1>
+    <form autocomplete="off">
+      <label>
+        <input id="new-todo" name="todo" type="text" placeholder="New ToDo">
+      </label>
+      <select name="user" id="user-todo">
+        <option>Select user</option>
+      </select>
+      <button>Add ToDo</button>
+    </form>
+
+    <ul id="todo-list">
+
+    </ul>
+  </main>
+
+  <script src="index.js"></script>
+</body>
+</html>
