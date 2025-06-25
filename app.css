@@ -7,7 +7,7 @@
 main {
     border: 0.063rem solid #d1d1d1;
     border-radius: 0.625rem;
-    max-width: 37.5rem;
+    max-width: 700px;
     margin: 1.875rem auto;
     background-color: rgba(214, 246, 219, 0.45);
 }
@@ -74,17 +74,57 @@ ul {
     font-size: 1rem;
 }
 
+.todo-item-container {
+    display: flex;
+    align-items: center;
+    gap: 1.875rem;
+}
+
 .todo-text {
+    width: 25rem;
     flex-grow: 1;
 }
 
-.close-item {
-    color: red;
-    font-size: 1.563rem;
-    margin-right: 10px;
+.todo-autor {
+    margin-left: 0.625rem;
+}
+
+.icon-container {
+    display: flex;
+    align-items: center;
+    gap: 0.625rem;
+    margin-left: auto;
+}
+
+.edit-todo {
+    color: blue;
+    font-size: 1.25rem;
     cursor: pointer;
 }
 
-.close-item:hover {
+.edit-todo:hover {
+    color: rgba(0, 0, 255, 0.53);
+}
+
+.close-todo {
+    color: red;
+    font-size: 1.563rem;
+    cursor: pointer;
+    margin-right: 1rem;
+}
+
+.close-todo:hover {
     color: rgba(238, 9, 9, 0.6);
+}
+
+.edit-input {
+    padding-left: 0.313rem;
+    margin-right: 0.313rem;
+    max-width: 300px;
+    height: 1.875rem;
+    background-color: inherit;
+    border: 0.063rem solid #d1d1d1;
+    border-radius: 0.313rem;
+    font-size: 1rem;
+    font-weight: 400;
 }
